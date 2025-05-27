@@ -13,7 +13,7 @@ function App() {
       
       <div className="body-text">
         <p>Constantly in awe of human collective knowledge.</p>
-        <p>I studied artificial intelligence in college, now building <a href="https://www.spot-reader.com/">Spot</a> an Ai powered social e-reader platform. Learning something new every day and writing occasionally about what I find interesting.</p>
+        <p>I studied artificial intelligence in college, now building <a href="https://www.spot-reader.com/">Spot</a> an Ai powered social e-reader platform. Writing occasionally about things I find interesting.</p>
       </div>
     </>
   )
