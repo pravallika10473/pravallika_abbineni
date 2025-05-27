@@ -12,7 +12,7 @@ function App() {
       <div className="top-right-location">📍 Salt Lake City, Utah</div>
       
       <div className="body-text">
-        <p>I am continually in awe of our universe.</p>
+        <p>Constantly in awe of human collective knowledge.</p>
         <p>I studied artificial intelligence in college, now building <a href="https://www.spot-reader.com/">Spot</a> an Ai powered social e-reader platform. Learning something new every day and writing occasionally about what I find interesting.</p>
       </div>
     </>
