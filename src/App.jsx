@@ -19,10 +19,9 @@ function App() {
 
       <div className="header-text">
         <p>Ideas in Progress:</p>
-        <ul>
-          <li><a href="https://medium.com/@pravallikaabbineni/how-to-master-anything-68cc58ba30df">How to Learn Anything</a></li>
-          <li><a href="https://medium.com/@pravallikaabbineni/life-58e7e19e0001">Genome</a></li>
-        </ul>
+        <a href="https://medium.com/@pravallikaabbineni/how-to-master-anything-68cc58ba30df">How to Learn Anything</a>
+        <br />
+        <a href="https://medium.com/@pravallikaabbineni/life-58e7e19e0001">Genome</a>
       </div>
     </>
   )

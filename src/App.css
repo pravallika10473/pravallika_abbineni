@@ -63,7 +63,7 @@
 .header-text a {
   color: inherit;
   font-weight: 300;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .header-text a:hover {
