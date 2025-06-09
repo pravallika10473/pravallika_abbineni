@@ -59,3 +59,12 @@
   margin-top: 50px;
   text-align: justify;
 }
+
+.header-text a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-text a:hover {
+  text-decoration: underline;
+}
