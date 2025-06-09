@@ -62,6 +62,7 @@
 
 .header-text a {
   color: inherit;
+  font-weight: 300;
   text-decoration: none;
 }
 
