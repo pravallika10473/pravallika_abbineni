@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="top-right-name">Pravallika Abbineni</div>
-      <div className="top-right-location">📍 Salt Lake City, Utah</div>
+      <div className="top-right-location">Salt Lake City, Utah</div>
       
       <div className="body-text">
         <p>Constantly in awe of human collective knowledge.</p>
