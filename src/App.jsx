@@ -30,7 +30,7 @@ function App() {
       
       <div className="body-text">
         <p>Constantly in awe of human collective knowledge.</p>
-        <p>I studied artificial intelligence in college and now building <a href="https://www.spot-reader.com/">Spot</a>, a full-stack learning platform that leverages the collective intelligence of humans and AI to help support deep, self-directed learning. I write occasionally about things I find interesting.</p>
+        <p>I studied artificial intelligence in college and now building <a href="https://www.spot-reader.com/">Spot</a>, a full-stack learning platform that leverages the collective intelligence of humans and AI to support deep, self-directed learning. Right now, I want to learn everything there is about human history and understand how generative AI works under the hood, so I occasionally write about things I find interesting along the way.</p>
         <br />
       </div>
       <p>Ideas in Progress:</p>
