@@ -114,3 +114,96 @@
   text-decoration: underline;
   color: #646cffaa;
 }
+
+/* Notion-style toggle */
+.notion-toggle {
+  margin-top: 0px;   /* Decrease this value for less space */
+  margin-bottom: 0;  /* Optional: ensures no extra space below */
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  padding: 8px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: inherit;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  width: 100%;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.toggle-button:hover {
+  background-color: #242424;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-icon {
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+  color: #666;
+  min-width: 12px;
+}
+
+.toggle-icon.expanded {
+  transform: rotate(90deg);
+}
+
+.toggle-title {
+  font-weight: 500;
+}
+
+.toggle-content {
+  margin-left: 20px;
+  margin-top: 8px;
+  padding-left: 8px;
+  animation: slideDown 0.2s ease-out;
+}
+
+.toggle-content a {
+  color: inherit;
+  font-weight: 300;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 0px;
+  position: relative;
+  padding-left: 16px;
+}
+
+.toggle-content a::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #666;
+}
+
+.toggle-content a:hover {
+  text-decoration: underline;
+  color: #646cffaa;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
